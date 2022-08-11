@@ -1,4 +1,4 @@
-const {Sequelize, sequelize, DataTypes} = require('./db');
+const {Sequelize, db, DataTypes} = require('./db');
 
 // TODO - define the Musician model
 let Musician = db.define('restaurant', {

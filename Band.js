@@ -1,4 +1,4 @@
-const {Sequelize, sequelize, DataTypes} = require('./db');
+const {Sequelize, db, DataTypes} = require('./db');
 
 // TODO - define the Band model
 let Band = db.define('restaurant', {
